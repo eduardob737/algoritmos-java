@@ -1,4 +1,4 @@
-package br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada;
+package br.com.eduardobarbosa.algoritmosjava.programacaoestruturada;
 
 import java.util.Scanner;
 

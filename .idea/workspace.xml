@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f98308b2-fcc8-4714-8cfa-8e3c23424928" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoAreaCirculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoAreaQuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoMediaNotas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoMultaExcessoPeixes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoPesoIdeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoSalarioComDescontos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoTempoDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculosComNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoCelsiusFarenheit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoFarenheitCelsius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoMedidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/switchcase/VerificadorGenero.java" afterDir="false" />
+    <list default="true" id="f98308b2-fcc8-4714-8cfa-8e3c23424928" name="Changes" comment="feat: exercicios java basico">
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoCombustivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoEquacao2Grau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoFruteira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoPromocaoCarnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/ClassificacaoCriminosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/VerificadoAnoBissexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/VerificadorGenero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/VerificadorTriangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/VerificadorVogalConsoante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoAreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoAreaCirculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoAreaQuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoAreaQuadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoMediaNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoMediaNotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoMultaExcessoPeixes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoMultaExcessoPeixes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoPesoIdeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoPesoIdeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoSalario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoSalarioComDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoSalarioComDescontos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoTempoDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoTempoDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculosComNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculosComNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoCelsiusFarenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/ConversaoCelsiusFarenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoFarenheitCelsius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/ConversaoFarenheitCelsius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoMedidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/ConversaoMedidas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.VerificadorGenero">
+  <component name="RunManager" selected="Application.CalculoPromocaoCarnes">
     <configuration name="Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.ConversaoCelsiusFarenheit" />
       <module name="algoritmos-java" />
@@ -60,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculoSalario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoSalario" />
+    <configuration name="CalculoCombustivel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.CalculoCombustivel" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.*" />
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculoSalarioComDescontos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoSalarioComDescontos" />
+    <configuration name="CalculoFruteira" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.CalculoFruteira" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.*" />
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerificadorGenero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.switchcase.VerificadorGenero" />
+    <configuration name="CalculoPromocaoCarnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.CalculoPromocaoCarnes" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.switchcase.*" />
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoMultaExcessoPeixes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoMultaExcessoPeixes" />
+    <configuration name="ClassificacaoCriminosa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.ClassificacaoCriminosa" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.*" />
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoPesoIdeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoPesoIdeal" />
+    <configuration name="VerificadoAnoBissexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.VerificadoAnoBissexto" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.*" />
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +137,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="Application.CalculoSalario" />
-      <item itemvalue="Application.br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoSalarioComDescontos" />
-      <item itemvalue="Application.VerificadorGenero" />
-      <item itemvalue="Application.br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoMultaExcessoPeixes" />
-      <item itemvalue="Application.br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoPesoIdeal" />
+      <item itemvalue="Application.CalculoPromocaoCarnes" />
+      <item itemvalue="Application.CalculoCombustivel" />
+      <item itemvalue="Application.CalculoFruteira" />
+      <item itemvalue="Application.ClassificacaoCriminosa" />
+      <item itemvalue="Application.VerificadoAnoBissexto" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VerificadorGenero" />
-        <item itemvalue="Application.CalculoSalario" />
-        <item itemvalue="Application.br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoPesoIdeal" />
-        <item itemvalue="Application.br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoMultaExcessoPeixes" />
-        <item itemvalue="Application.br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.CalculoSalarioComDescontos" />
+        <item itemvalue="Application.CalculoPromocaoCarnes" />
+        <item itemvalue="Application.CalculoFruteira" />
+        <item itemvalue="Application.ClassificacaoCriminosa" />
+        <item itemvalue="Application.CalculoCombustivel" />
+        <item itemvalue="Application.VerificadoAnoBissexto" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +162,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671107126228</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: exercicios java basico">
+      <created>1671213125581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671213125581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,5 +182,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: exercicios java basico" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercicios java basico" />
   </component>
 </project>
