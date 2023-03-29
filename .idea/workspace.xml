@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f98308b2-fcc8-4714-8cfa-8e3c23424928" name="Changes" comment="feat: exercicios java basico">
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoCombustivel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoEquacao2Grau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoFruteira.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoPromocaoCarnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/ClassificacaoCriminosa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/VerificadoAnoBissexto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/VerificadorGenero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/VerificadorTriangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/VerificadorVogalConsoante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/HabitantesPopulacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/ValidacaoDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/VerificadorNota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/VerificadorSenha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoAreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoAreaCirculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoAreaQuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoAreaQuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoMediaNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoMediaNotas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoMultaExcessoPeixes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoMultaExcessoPeixes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoPesoIdeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoPesoIdeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoSalario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoSalarioComDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoSalarioComDescontos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculoTempoDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculoTempoDownload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/CalculosComNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/CalculosComNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoCelsiusFarenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/ConversaoCelsiusFarenheit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoFarenheitCelsius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/ConversaoFarenheitCelsius.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/barbosa/eduardo/algoritmosjava/programacaoestruturada/ConversaoMedidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/ConversaoMedidas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,39 +42,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CalculoPromocaoCarnes">
+  <component name="RunManager" selected="Application.HabitantesPopulacao">
     <configuration name="Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.com.barbosa.eduardo.algoritmosjava.programacaoestruturada.ConversaoCelsiusFarenheit" />
       <module name="algoritmos-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculoCombustivel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.CalculoCombustivel" />
-      <module name="algoritmos-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculoFruteira" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.CalculoFruteira" />
-      <module name="algoritmos-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassificacaoCriminosa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.ClassificacaoCriminosa" />
+    <configuration name="HabitantesPopulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.HabitantesPopulacao" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
@@ -122,12 +82,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerificadoAnoBissexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.VerificadoAnoBissexto" />
+    <configuration name="ValidacaoDados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.ValidacaoDados" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.*" />
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerificadorNota" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.VerificadorNota" />
+      <module name="algoritmos-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerificadorSenha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.VerificadorSenha" />
+      <module name="algoritmos-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +123,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.HabitantesPopulacao" />
+      <item itemvalue="Application.ValidacaoDados" />
+      <item itemvalue="Application.VerificadorNota" />
+      <item itemvalue="Application.VerificadorSenha" />
       <item itemvalue="Application.CalculoPromocaoCarnes" />
-      <item itemvalue="Application.CalculoCombustivel" />
-      <item itemvalue="Application.CalculoFruteira" />
-      <item itemvalue="Application.ClassificacaoCriminosa" />
-      <item itemvalue="Application.VerificadoAnoBissexto" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HabitantesPopulacao" />
+        <item itemvalue="Application.ValidacaoDados" />
+        <item itemvalue="Application.VerificadorSenha" />
+        <item itemvalue="Application.VerificadorNota" />
         <item itemvalue="Application.CalculoPromocaoCarnes" />
-        <item itemvalue="Application.CalculoFruteira" />
-        <item itemvalue="Application.ClassificacaoCriminosa" />
-        <item itemvalue="Application.CalculoCombustivel" />
-        <item itemvalue="Application.VerificadoAnoBissexto" />
       </list>
     </recent_temporary>
   </component>
