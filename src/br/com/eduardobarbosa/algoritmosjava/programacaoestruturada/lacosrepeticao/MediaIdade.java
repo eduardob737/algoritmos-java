@@ -14,7 +14,7 @@ public class MediaIdade {
         Scanner sc = new Scanner(System.in);
         int qtd, idade = 0;
         float media;
-        String classificacao;
+        String classificacao = null;
         DecimalFormat df = new DecimalFormat("0.00");
 
         System.out.print("Digite a quantidade de pessoas: ");
@@ -22,16 +22,16 @@ public class MediaIdade {
 
         for (int i = 1; i <= qtd; i++) {
             System.out.print("Digite a idade: ");
-            idade = idade + sc.nextInt();
+            idade += sc.nextInt();
         }
 
         media = (float) idade / qtd;
 
-        if (media <= 25) {
+        if (media >= 0 && media <= 25) {
             classificacao = "Jovem";
-        } else if (media <= 60) {
+        } else if (media >= 26 && media <= 60) {
             classificacao = "Adulta";
-        } else {
+        } else if (media > 60){
             classificacao = "Idosa";
         }
 

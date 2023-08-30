@@ -17,9 +17,9 @@ public class Fatorial {
         fatorial = num;
 
         for (int i= num-1; i >= 1; i--){
-            fatorial = fatorial * i;
+            fatorial *= i;
         }
 
-        System.out.println("Fatorial de " + num + ": " + fatorial);
+        System.out.println(num + "! = " + fatorial);
     }
 }

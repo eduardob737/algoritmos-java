@@ -11,14 +11,18 @@ public class NumerosPrimos {
 
         Scanner sc = new Scanner(System.in);
         int num;
+        boolean primo = true;
 
         System.out.print("Digite um número inteiro: ");
         num = sc.nextInt();
 
-        if ((num % 2 != 0) && (num % 3 != 0)) {
-            System.out.println(num + " é número primo.");
-        } else {
-            System.out.println(num + " não é número primo.");
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                primo = false;
+                break;
+            }
         }
+
+        System.out.println(primo ? num + " é primo" : num + " não é primo");
     }
 }

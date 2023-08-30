@@ -11,9 +11,9 @@ public class MediaAlunos {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int turmas, alunos, totalAlunos = 0;
+        int turmas, alunos = 0, totalAlunos = 0;
         float media;
-        boolean parar = false;
+        boolean invalido;
 
         DecimalFormat df = new DecimalFormat("0.00");
 
@@ -21,21 +21,25 @@ public class MediaAlunos {
         turmas = sc.nextInt();
 
         for (int i = 1; i <= turmas; i++) {
-            System.out.print("Digite a quantidade de alunos da turma: ");
-            alunos = sc.nextInt();
+            invalido = true;
 
-            if (alunos > 40){
-                System.out.println("O número máximo de alunos por turmas é de 40, tente novamente.");
-                parar = true;
-                break;
-            }
-            
+            do {
+                System.out.print("Digite a quantidade de alunos da turma: ");
+                alunos = sc.nextInt();
+
+                if (alunos <= 40) {
+                    invalido = false;
+                } else {
+                    System.out.println("O número máximo de alunos por turmas é de 40, tente novamente.");
+                }
+            } while (invalido);
+
             totalAlunos = totalAlunos + alunos;
         }
 
-        if (!parar){
-            media = (float) totalAlunos / turmas;
-            System.out.println("\nMédia de alunos por turma: " + df.format(media));
-        }
+        media = (float) totalAlunos / turmas;
+
+        System.out.println("\nMédia de alunos por turma: " + df.format(media));
+
     }
 }
