@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Fatorial {
 
     // Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário
+    // Saída:
+    // Fatorial de 5
+    // 5! = 5.4.3.2.1 = 120
 
     public static void main(String[] args) {
 
@@ -16,10 +19,15 @@ public class Fatorial {
 
         fatorial = num;
 
+        System.out.println("\nFatorial de " + num);
+        System.out.print(num + "! = " + num);
+
         for (int i= num-1; i >= 1; i--){
             fatorial *= i;
+            System.out.print("." + i);
+
         }
 
-        System.out.println(num + "! = " + fatorial);
+        System.out.println(" = " + fatorial);
     }
 }

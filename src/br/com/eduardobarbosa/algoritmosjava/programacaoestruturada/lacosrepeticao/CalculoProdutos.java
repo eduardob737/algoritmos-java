@@ -16,15 +16,14 @@ public class CalculoProdutos {
 
     public static void main(String[] args) {
 
+        float valorFinal;
         final float preco = 1.99f;
         DecimalFormat df = new DecimalFormat("0.00");
 
         for (int i=1; i<=50; i++){
-            float valorFinal = preco * i;
+            valorFinal = preco * i;
+
             System.out.println(i + " - R$ " + df.format(valorFinal));
-            if (i % 10 == 0){
-                System.out.println("\t");
-            }
         }
     }
 }
