@@ -14,7 +14,6 @@ public class MediaAlunos {
         int turmas, alunos = 0, totalAlunos = 0;
         float media;
         boolean invalido;
-
         DecimalFormat df = new DecimalFormat("0.00");
 
         System.out.print("Digite a quantidade de turmas: ");
