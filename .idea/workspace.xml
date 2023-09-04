@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f98308b2-fcc8-4714-8cfa-8e3c23424928" name="Changes" comment="feat: exercicios java basico">
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/Lanchonete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/SalarioFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/TabuadaPersonalizada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/SerieDeTermos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/SerieValorH.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/MediaAlunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/lacosrepeticao/MediaAlunos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaNumerosPrimos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.ListaNumerosPrimos" />
+    <configuration name="SalarioFuncionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.SalarioFuncionario" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalarioFuncionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.SalarioFuncionario" />
+    <configuration name="SerieDeTermos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.SerieDeTermos" />
+      <module name="algoritmos-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerieValorH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.SerieValorH" />
       <module name="algoritmos-java" />
       <extension name="coverage">
         <pattern>
@@ -113,33 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temperaturas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.Temperaturas" />
-      <module name="algoritmos-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.lacosrepeticao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.SerieDeTermos" />
+      <item itemvalue="Application.SerieValorH" />
       <item itemvalue="Application.SalarioFuncionario" />
       <item itemvalue="Application.TabuadaPersonalizada" />
-      <item itemvalue="Application.ListaNumerosPrimos" />
-      <item itemvalue="Application.Temperaturas" />
       <item itemvalue="Application.CalculoProdutos" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerieValorH" />
+        <item itemvalue="Application.SerieDeTermos" />
         <item itemvalue="Application.SalarioFuncionario" />
         <item itemvalue="Application.TabuadaPersonalizada" />
         <item itemvalue="Application.CalculoProdutos" />
-        <item itemvalue="Application.ListaNumerosPrimos" />
-        <item itemvalue="Application.Temperaturas" />
       </list>
     </recent_temporary>
   </component>
