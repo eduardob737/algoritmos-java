@@ -11,7 +11,6 @@ public class Exc20 {
 
         float[] vetorA = new float[20];
         float cotacao;
-        int multiplicador = 1;
 
         System.out.print("Digite a cotação do dólar (U$) em relação ao real (R$): ");
         cotacao = Utils.scanner.nextFloat();
@@ -20,7 +19,6 @@ public class Exc20 {
 
         for (int i = 0; i < vetorA.length; i++) {
             vetorA[i] = cotacao * (i + 1);
-            multiplicador++;
 
             if (i == 0) {
                 System.out.print(Utils.mask.format(vetorA[i]));
