@@ -4,15 +4,16 @@ import br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.Utils;
 
 import java.util.ArrayList;
 
-public class Exc13 {
+public class Exc14 {
     // Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a
-    // soma de todos os elementos armazenados neste vetor que são múltiplos de 5.
+    // média aritmética simples dos elementos ímpares armazenados neste vetor.
 
     public static void main(String[] args) {
 
         int[] vetorA = new int[10];
-        ArrayList<Integer> multiplosDeCinco = new ArrayList<>();
+        ArrayList<Integer> impares = new ArrayList<>();
         int soma = 0;
+        float media;
 
         System.out.print("Vetor A: ");
 
@@ -25,25 +26,26 @@ public class Exc13 {
                 System.out.print(", " + vetorA[i]);
             }
 
-            if (vetorA[i] % 5 == 0) {
+            if (vetorA[i] % 2 != 0) {
                 soma += vetorA[i];
-                multiplosDeCinco.add(vetorA[i]);
+                impares.add(vetorA[i]);
             }
         }
 
-        System.out.print("\nElemento(s) múltiplo(s) de 5: ");
+        System.out.print("\nElemento(s) ímpares: ");
 
-        if (multiplosDeCinco.isEmpty()) {
+        if (impares.isEmpty()) {
             System.out.print("Nenhum");
         } else {
-            for (int i = 0; i < multiplosDeCinco.size() - 1; i++) {
-                System.out.print(multiplosDeCinco.get(i) + ", ");
+            for (int i = 0; i < impares.size() - 1; i++) {
+                System.out.print(impares.get(i) + ", ");
             }
 
-            int ultimo = multiplosDeCinco.size() - 1;
-            System.out.print(multiplosDeCinco.get(ultimo));
-        }
+            int ultimo = impares.size() - 1;
+            System.out.print(impares.get(ultimo));
 
-        System.out.println("\nA soma dos elementos múltiplos de 5 é: " + soma);
+            media = (float) soma / impares.size();
+            System.out.println("\nA média dos elementos ímpares é: " + Utils.mask.format(media));
+        }
     }
 }
