@@ -19,7 +19,7 @@ public class Exc19 {
         System.out.print("Notas 1: ");
 
         for (int i = 0; i < notas1.length; i++) {
-            notas1[i] = Utils.random.nextFloat(0, 10.1f);
+            notas1[i] = Utils.random.nextFloat(10.1f);
 
             if (i == 0) {
                 System.out.print(Utils.mask.format(notas1[i]));
@@ -31,7 +31,7 @@ public class Exc19 {
         System.out.print("\nNotas 2: ");
 
         for (int i = 0; i < notas2.length; i++) {
-            notas2[i] = Utils.random.nextFloat(0, 10.1f);
+            notas2[i] = Utils.random.nextFloat(10.1f);
 
             if (i == 0) {
                 System.out.print(Utils.mask.format(notas2[i]));
