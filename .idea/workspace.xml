@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f98308b2-fcc8-4714-8cfa-8e3c23424928" name="Changes" comment="feat: exercicios java basico">
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/ContaEspecial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/Exc1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/Contribuinte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/Exc2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/Exc3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/Mamifero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/Peixe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/PessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/poo/herancaepolimorfismo/PessoaJuridica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/programacaoestruturada/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
