@@ -1,4 +1,4 @@
-package br.com.eduardobarbosa.algoritmosjava.poo;
+package br.com.eduardobarbosa.algoritmosjava.poo.iniciais;
 
 public class Lampada {
     // Exc1 - Escreva uma classe para representar uma lâmpada. Desenvolva métodos para ligar e desligar a lâmpada.

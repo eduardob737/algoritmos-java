@@ -1,4 +1,4 @@
-package br.com.eduardobarbosa.algoritmosjava.poo;
+package br.com.eduardobarbosa.algoritmosjava.poo.iniciais;
 
 import br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.Utils;
 

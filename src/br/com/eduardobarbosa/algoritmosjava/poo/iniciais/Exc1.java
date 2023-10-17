@@ -1,4 +1,4 @@
-package br.com.eduardobarbosa.algoritmosjava.poo;
+package br.com.eduardobarbosa.algoritmosjava.poo.iniciais;
 
 public class Exc1 {
 

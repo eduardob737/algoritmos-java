@@ -1,4 +1,4 @@
-package br.com.eduardobarbosa.algoritmosjava.poo;
+package br.com.eduardobarbosa.algoritmosjava.poo.iniciais;
 
 public class Aluno {
     // Exc3 - Escreva uma class para representar um Aluno. Adicione atributos relacionados às caracteristicas
