@@ -2,59 +2,73 @@ package br.com.eduardobarbosa.algoritmosjava.exceptions.exercicio;
 
 import br.com.eduardobarbosa.algoritmosjava.programacaoestruturada.Utils;
 
+import java.util.InputMismatchException;
+
 public class Teste {
     public static void main(String[] args) {
 
-        int entradaUsuario;
-        String nome, telefone, nomeAgenda;
-        int quantidadeContatos;
+        int entradaUsuario, contador = 0;
+        String nome, telefone;
+        String opcaoSaida;
+        boolean entradaValida, sair;
+        Agenda agenda = new Agenda();
+        Contato contato;
 
-        // fazer loop do programa até usuario quiser sair
+        do {
+            do {
+                System.out.println("\nMenu do usuário - Agenda");
+                System.out.println("1 para Consultar um contato || 2 para Adicionar novo contato");
+                System.out.print("Digite a opção escolhida: ");
 
-        System.out.print("Digite um nome para a agenda: ");
-        nomeAgenda = Utils.scanner.nextLine();
+                try {
+                    entradaValida = true;
 
-        System.out.print("Digite a quantidade de contatos que a agenda " + nomeAgenda + " conterá: ");
-        quantidadeContatos = Utils.scanner.nextInt();
+                    entradaUsuario = Utils.scanner.nextInt();
+                    Utils.scanner.nextLine();
 
-        Agenda agenda = new Agenda(nomeAgenda, quantidadeContatos);
+                    if (entradaUsuario == 1) {
+                        System.out.print("Digite o nome do contato a ser consultado: ");
+                        nome = Utils.scanner.nextLine();
 
-        System.out.println("\nMenu do usuário - Agenda " + nomeAgenda);
-        System.out.println("Digite 1 para Consultar um contato");
-        System.out.println("Digite 2 para Adicionar novo contato");
-        entradaUsuario = Utils.scanner.nextInt();
+                        try {
+                            agenda.consultarContato(nome);
+                        } catch (ContatoNaoExisteException | ListaContatosVazia exception) {
+                            System.out.println(exception);
+                        }
 
-        Utils.scanner.nextLine();
+                    } else if (entradaUsuario == 2) {
+                        System.out.print("Digite o nome do novo contato: ");
+                        nome = Utils.scanner.nextLine();
 
-        if (entradaUsuario == 1){
-            System.out.print("Digite o nome do contato a ser consultado: ");
-            nome = Utils.scanner.nextLine();
+                        System.out.print("Digite o telefone do novo contato: ");
+                        telefone = Utils.scanner.nextLine();
 
-            try {
-                agenda.consultarContato(nome);
-            } catch (ContatoNaoExisteException exception){
-                System.out.println(exception.getMessage());
-            } catch (NullPointerException exceptionNull){
-                System.out.println("Lista de contatos está vazia, tente adicionar um novo contato.");
-            }
+                        contador++;
+                        contato = new Contato(nome, telefone, contador);
 
-        } else if (entradaUsuario == 2) {
-            System.out.print("Digite o nome do novo contato: ");
-            nome = Utils.scanner.nextLine();
+                        try {
+                            agenda.adicionarContato(contato);
+                        } catch (AgendaCheiaException exception) {
+                            System.out.println(exception);
+                        }
 
-            System.out.print("Digite o telefone do novo contato: ");
-            telefone = Utils.scanner.nextLine();
+                    } else {
+                        System.out.println("Número inválido, tente novamente.");
+                        entradaValida = false;
+                    }
 
-            Contato contato = new Contato(nome, telefone);
+                } catch (InputMismatchException inputMismatchException){
+                    System.out.println("Entrada inválida, tente novamente inserindo um número");
+                    entradaValida = false;
+                    Utils.scanner.nextLine();
+                }
+            } while (!entradaValida);
 
-            try{
-                agenda.adicionarContato(contato);
-            } catch (AgendaCheiaException exception){
-                System.out.println(exception.getMessage());
-            }
+                System.out.println("\nDigite S para SAIR ou qualquer tecla para repetir o programa: ");
+                opcaoSaida = Utils.scanner.nextLine();
 
-        } else {
-            // lançar exception de numero invalido
+                sair = opcaoSaida.equalsIgnoreCase("S");
+
+            } while (!sair);
         }
     }
-}

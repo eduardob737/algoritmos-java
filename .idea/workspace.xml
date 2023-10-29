@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f98308b2-fcc8-4714-8cfa-8e3c23424928" name="Changes" comment="feat: exercicios java basico">
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/AgendaCheiaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/ContatoNaoExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/ListaContatosVazia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/AgendaCheiaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/AgendaCheiaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +103,14 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Agenda.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/ListaContatosVazia.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/br/com/eduardobarbosa/algoritmosjava/exceptions/exercicio/Agenda.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="3" />
+          <line>16</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

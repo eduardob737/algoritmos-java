@@ -4,12 +4,12 @@ public class Contato {
 
     private String nome;
     private String telefone;
-    private int identificador = 0;
+    private int identificador;
 
-    public Contato(String nome, String telefone) {
+    public Contato(String nome, String telefone, int identificador) {
         this.nome = nome;
         this.telefone = telefone;
-        identificador++;
+        this.identificador = identificador;
     }
 
     public String getNome() {

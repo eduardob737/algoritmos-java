@@ -2,45 +2,47 @@ package br.com.eduardobarbosa.algoritmosjava.exceptions.exercicio;
 
 public class Agenda {
 
-    private String nome;
-    private Contato[] listaContatos;
-    private int quantidadeContatos;
+    private final Contato[] listaContatos;
 
-    public Agenda(String nome, int quantidadeContatos) {
-        this.nome = nome;
-        this.quantidadeContatos = quantidadeContatos;
-        listaContatos = new Contato[quantidadeContatos];
-    }
-
-    public String getNome() {
-        return nome;
+    public Agenda() {
+        listaContatos = new Contato[5];
     }
 
     public Contato[] getListaContatos() {
         return listaContatos;
     }
 
-    public int getQuantidadeContatos() {
-        return quantidadeContatos;
-    }
-
     void adicionarContato(Contato novoContato) throws AgendaCheiaException {
-        int ultimaPosicao = listaContatos.length - 1;
-        if (listaContatos[ultimaPosicao] != null){
-            throw new AgendaCheiaException(this);
+        Contato ultimoContato = getListaContatos()[4];
+        if (ultimoContato != null) {
+            throw new AgendaCheiaException();
         } else {
-            listaContatos[novoContato.getIdentificador()] = novoContato;
+            listaContatos[novoContato.getIdentificador() - 1] = novoContato;
             System.out.println("Contato adicionado com sucesso!");
         }
     }
 
-    void consultarContato(String nome) throws ContatoNaoExisteException {
+    void consultarContato(String nome) throws ContatoNaoExisteException, ListaContatosVazia {
+        boolean contatoLocalizado = false;
+
+        if (listaContatos[0] == null){
+            throw new ListaContatosVazia();
+        }
+
         for (Contato contato : listaContatos) {
-            if (contato.getNome().equalsIgnoreCase(nome)) {
-                System.out.println("Nome: " + contato.getNome() + " Telefone: " + contato.getTelefone());
-            } else {
-                throw new ContatoNaoExisteException(nome);
+            if (contato == null)
+                break;
+            else {
+                if (contato.getNome().equalsIgnoreCase(nome)) {
+                    contatoLocalizado = true;
+                    System.out.println("Nome: " + contato.getNome() + " | Telefone: " + contato.getTelefone() + " | Identificador: " + contato.getIdentificador());
+                    break;
+                }
             }
+        }
+
+        if (!contatoLocalizado) {
+            throw new ContatoNaoExisteException(nome);
         }
     }
 }
