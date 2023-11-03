@@ -9,7 +9,7 @@ public class ContatoNaoExisteException extends Exception{
     }
 
     @Override
-    public String toString() {
+    public String getMessage() {
         return "O contato " + nome + " não foi localizado.";
     }
 }

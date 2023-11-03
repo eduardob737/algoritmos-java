@@ -6,7 +6,7 @@ public class AgendaCheiaException extends Exception {
     }
 
     @Override
-    public String toString() {
+    public String getMessage() {
         return "Agenda excedeu o limite de 5 contatos";
     }
 }

@@ -25,7 +25,7 @@ public class Agenda {
     void consultarContato(String nome) throws ContatoNaoExisteException, ListaContatosVazia {
         boolean contatoLocalizado = false;
 
-        if (listaContatos[0] == null){
+        if (listaContatos[0] == null) {
             throw new ListaContatosVazia();
         }
 
@@ -43,6 +43,20 @@ public class Agenda {
 
         if (!contatoLocalizado) {
             throw new ContatoNaoExisteException(nome);
+        }
+    }
+
+    public void imprimirAgenda() throws ListaContatosVazia {
+        if (listaContatos[0] == null) {
+            throw new ListaContatosVazia();
+        }
+
+        for (Contato contato : listaContatos) {
+            if (contato == null)
+                break;
+            else {
+                System.out.println("Identificador: " + contato.getIdentificador() + " | Nome: " + contato.getNome() + " | Telefone: " + contato.getTelefone());
+            }
         }
     }
 }
